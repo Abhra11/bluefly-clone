@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        background-image: linear-gradient(to  right, #3794d9, #666ac2,#7c53b5);
+         }
+        #container{
+            width: 430px;
+            height: 650px;
+            text-align: center;
+            margin: auto;
+            padding: 40px 10px;
+            box-sizing: border-box;
+            background-color: white;
+            border-radius: 10px;
+            font-family: 'Rubik', sans-serif;
+            margin-top: 100px;
+        }
+        #container>h1{
+            margin-top: 50px;
+            font-size: 40px;
+        }
+        #container>input{
+            margin-top: 40px;
+            font-size: 25px;
+            border: none;
+            border-bottom: 3px solid gainsboro;
+            padding: 10px;
+        }
+        #container>button{
+            margin-top: 50px;
+            font-size: 20px;
+            width: 80%;
+            padding: 15px;
+            background-image: linear-gradient(to right, #3794d9, #666ac2,#7c53b5);
+            border: none;
+        }
+        #container>button+p{
+            margin-top: 60px;
+            font-size: 15px;
+        }
+        #container>p{
+            color: grey;
+        }
+        #container>p>span{
+            color: #366393;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <h1>Login</h1>
+    <input type="text" placeholder="Email"><br>
+    <input type="password" placeholder="Password"> <br>
+    <button>Login</button>
+    <p>Forget <span>Password</span></p>
+    <p>Don't hve an account? <span>Sign up</span></p>
+    </div>
+</body>
+</html>
